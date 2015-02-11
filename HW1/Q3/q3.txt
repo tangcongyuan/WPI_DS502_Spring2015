@@ -1,0 +1,5 @@
+3. Section 2.4, page53, Question 6
+Describe the difference between a parametric and a non-parametric statistical learning approach. What are the advantages of a parametric approach to regression or classification (as opposed to a non-parametric approach)? What are its disadvantages?
+parametric approach is a model-based approach whereas non-parametric approach do not make explicit assumptions about the target function.
+Advantages: By assuming a particular function form of target function f, parametric approach reduces the problem of estimating f down to estimating a set of parameters.
+Disadvantages: It need to make explicit assumption about the target function, and it only fit a narrow range of target function form.

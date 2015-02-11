@@ -1,0 +1,11 @@
+2. Section 2.4, page52 - 53, Question 3
+(a)
+
+
+
+
+(b) Explanation: 
+Test Error = Bias + Variance + Bayes Error;
+Training Error monotonously decrease as flexibility increases;
+Bayes Error is irreducible and constant due to our measuring method;
+Bias and Variance have trade-off effect that as the flexibility increases, Bias decreases and Variance increases.

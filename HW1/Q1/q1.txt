@@ -1,0 +1,5 @@
+1. Section 2.4, page52, Question 1
+(a) The sample size n is extremely large, and the number of predictors p is small. This suggests that our training data has too few degrees-of-freedom, and this is more likely because we used a more inflexible statistical learning method.
+(b) The number of predictors p is extremely large, and the sample size n is small. This suggests that our training data has too many degrees-of-freedom, and this is more likely because we used a more flexible statistical learning method.
+(c) The relationship between the predictors and the response is highly non-linear. This suggests our linear regression model has too many degrees-of-freedom, and this is more likely because we used a more flexible statistical learning method.
+(d) The variance of the error terms is extremely high. This suggests that our model might be overfitting the training data, and the model is often result from a more flexible statistical learning method.
