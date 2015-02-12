@@ -21,5 +21,11 @@ plot(myFit)
 
 # Interaction effects:
 This part is not finished yet!
-myFit = lm(mpg ~ cylinders * displacement * horsepower * weight + acceleration + year + origin)
-plot(myFit)
+myFit = lm(mpg ~ displacement * horsepower)
+summary(myFit)
+# A 3D visualization using the rgl library
+library(rgl)
+# We need the meshgrid function which can be found here.
+library(pracma)
+plot3d(auto$displacement,auto$horsepower,auto$mpg,col='red')
+
