@@ -1,0 +1,5 @@
+library(plotrix)
+x1 = c(0,-1,2,3)
+x2 = c(0,1,2,8)
+plot(x1,x2,asp=1)
+draw.circle(-1,2,2,border = "red")
